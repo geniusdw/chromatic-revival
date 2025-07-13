@@ -285,30 +285,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 For questions, issues, or contributions, please contact:
-- **Author**: [Your Name]
-- **Institution**: [Your College]
-- **Email**: [your.email@college.edu]
+- **Author**: Siddharth Nambiar
+- **Institution**: Pune Institute Of Computer Technology
+- **Email**: srnambiar17@gmail.com
 
 ---
-
-**Note**: This project is designed for academic purposes and demonstrates advanced concepts in computer vision and deep learning. The implementation includes professional-grade features suitable for resume presentation and academic evaluation.
-
-## Interview Q&A
-
-**Q: Why use the Lab color space for colorization?**  
-A: Lab separates luminance (L) from color (a, b), making it easier to predict color information from grayscale input.
-
-**Q: What does the neural network predict?**  
-A: It predicts the a and b color channels given the L (grayscale) channel.
-
-**Q: How do you evaluate colorization quality?**  
-A: Using SSIM (structural similarity), PSNR (signal-to-noise), and a colorfulness metric.
-
-**Q: How is batch processing implemented?**  
-A: By iterating over a list of image paths, colorizing each, and saving results with error handling.
-
-**Q: How do you handle missing or corrupt files?**  
-A: The code checks for file existence and validity, and logs errors without crashing the batch.
-
-**Q: What are the main software engineering best practices you followed?**  
-A: Modular code, clear documentation, error handling, logging, requirements management, and a professional project structure.
